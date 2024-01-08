@@ -1,64 +1,111 @@
+/* Styling for the overall page body */
 body {
     background-color: #f2f2f2;
+    /* Set background color */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Set font family */
     display: flex;
+    /* Use flexbox for layout */
     align-items: center;
+    /* Center content vertically */
     justify-content: center;
+    /* Center content horizontally */
     height: 100vh;
+    /* Set full viewport height */
     margin: 0;
+    /* Remove default margin */
 }
 
+/* Styling for the main content container */
 .container {
     background-color: #ffffff;
+    /* Set background color */
     border-radius: 10px;
+    /* Apply rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Apply a subtle box shadow */
     padding: 20px;
+    /* Add padding inside the container */
     text-align: center;
+    /* Center text */
 }
 
+/* Styling for the main heading */
 h1 {
     color: #333;
+    /* Set text color */
 }
 
+/* Styling for paragraphs */
 p {
     color: #666;
+    /* Set text color */
     margin-bottom: 20px;
+    /* Add space below paragraphs */
 }
 
+/* Styling for labels */
 label {
     display: block;
+    /* Make labels block-level elements */
     margin-bottom: 5px;
+    /* Add space below labels */
     color: #333;
+    /* Set text color */
 }
 
+/* Styling for input fields */
 input {
     width: 100%;
+    /* Take up 100% width of the container */
     padding: 8px;
+    /* Add padding inside input fields */
     margin-bottom: 10px;
+    /* Add space below input fields */
     box-sizing: border-box;
+    /* Include padding and border in the element's total width */
     border: 1px solid #ccc;
+    /* Set border style */
     border-radius: 4px;
+    /* Apply rounded corners */
     font-size: 16px;
+    /* Set font size */
 }
 
+/* Styling for buttons */
 button {
     width: 100%;
+    /* Take up 100% width of the container */
     padding: 10px;
+    /* Add padding inside buttons */
     background-color: #4caf50;
+    /* Set background color */
     color: #fff;
+    /* Set text color */
     border: none;
+    /* Remove border */
     border-radius: 4px;
+    /* Apply rounded corners */
     cursor: pointer;
+    /* Change cursor to pointer on hover */
     font-size: 18px;
+    /* Set font size */
     transition: background-color 0.3s;
+    /* Add a smooth transition for background color */
 }
 
+/* Styling for button hover state */
 button:hover {
     background-color: #45a049;
+    /* Change background color on hover */
 }
 
+/* Styling for the element with the ID 'showMood' */
 #showMood {
     color: #333;
+    /* Set text color */
     font-weight: bold;
+    /* Set bold font weight */
     margin-top: 10px;
+    /* Add space above the element */
 }
