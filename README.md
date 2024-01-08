@@ -3,7 +3,7 @@
 | LinkedIn             | [LinkedIn Profile](https://www.linkedin.com/in/collins-olokpedje/) |
 | Twitter              | [@CollinsTwitter](https://twitter.com/Freaking_Colin) |
 
-
+![PREVIEW](https://github.com/Colin-Stark/web3Dapp/blob/main/Screenshot%202024-01-07%20195630.png)
 
 🚀 Developed a decentralized application (DApp) using HTML, CSS, JavaScript, ethers.js, and lite-server to explore the power of Web3 technologies.
 
